@@ -1,6 +1,102 @@
-*{
-    font-family: "Outfit", sans-serif;
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav img {
+  height: 35px;
+}
+
+main {
+  height: 87vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+textarea {
+  border: 1px solid rgb(174, 172, 172);
+  padding: 10px;
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  resize: none;
+  margin-bottom: 30px;
+}
+.container {
+  width: 50%;
+}
+
+h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 16px;
+}
+
+.h3 {
+  margin-top: 5px;
+}
+
+.input {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 8px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.flashcard-input label {
+  margin-top: 5px;
+  margin-bottom: 2px;
+  color: grey;
+  font-size: 12px;
+}
+
+.flashcard-input select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.button1 {
+  color: white;
+  background-color: rgb(51, 51, 192);
+  margin: 20px;
+  padding: 8px 10px;
+  width: 130px;
+  border-radius: 8px;
+  border: none;
+}
+
+.button1:hover{
+      background-color: hsl(240, 58%, 55%);
+}
+
+.button1:active{
+      background-color: hsl(240, 58%, 58%);
+}
+
+
+@media (max-width: 700px){
+    .container{
+        width: 80%;
+    }
 }
